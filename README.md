@@ -1,4 +1,10 @@
-# Writeup
+# #BVE_i_暗号 writeup
+
+## Disclaimer
+
+このwriteupは著者Kobayashi Yasuhiroが非公式に制作したもので、公開にあたっては @BVE_I_ 氏の承認を得ています。
+
+内容の一切について、正確性は保証されず、現状有姿で提供されます。意見・質問は受け付けません。Pull requestのマージも行いません。あしからずご了承ください。
 
 ## Question 1
 
