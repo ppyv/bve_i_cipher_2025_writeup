@@ -247,7 +247,7 @@ httpとおぼしきところがthbbに写されていること、jpとおぼし�
 > [!NOTE]
 > 実際の鍵は `MOI` であるが、ヴィジュネル暗号は平文に対して鍵を繰り返し適用するため、同じ文字列の繰り返しである鍵 `MOIMOI` でも問題なく復号できる。
 
-## Question 4C
+## Question 5
 
 ### 問題
 
@@ -258,7 +258,7 @@ httpとおぼしきところがthbbに写されていること、jpとおぼし�
 <details>
 <summary>Question 4Cの問題スクリーンショット</summary>
 
-![Question 4Cの問題スクリーンショット](4c.png)
+![Question 4Cの問題スクリーンショット](5.png)
 </details>
 
 
