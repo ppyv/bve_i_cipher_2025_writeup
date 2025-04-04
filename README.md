@@ -234,9 +234,9 @@ httpとおぼしきところがthbbに写されていること、jpとおぼし�
 
 ### 別解
 
-平文が `http://bveiweb.aikotoba.jp/20250401/*******/****/******/*****.html` であると想定され、平文の一部が既知である。dCodeにおいてKnowing a plaintext wordを選択し、 `bveiweb.aikotoba` を入力する。これによって鍵 `MOIMOI` を得る。
+平文が `http://bveiweb.aikotoba.jp/20250401/*******/****/******/*****.html` であると想定され、平文の一部が既知である。dCodeにおいてKnowing a plaintext wordを選択し、 `bveiweb.aikotoba` を入力する。これによってResults欄に鍵候補 `MOIMOI` と、これによって復号した場合に得られる文字列 `HTTPBVEIWEBAIKOTOBAJPEREFFCSDFVAWERRFCQGTFHTML` を得る。
 
-改めて、 Knowing the Key/Passwordを選択し `MOIMOI` を入力すると、中間解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
+改めて、 Knowing the Key/Passwordを選択し `MOIMOI` を入力する。中間解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
 
 > [!NOTE]
 > 実際の鍵は `MOI` であるが、ヴィジュネル暗号は平文に対して鍵を繰り返し適用するため、同じ文字列の繰り返しである鍵 `MOIMOI` でも問題なく復号できる。
