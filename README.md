@@ -217,7 +217,7 @@ DJELA
 
 ![HEX.png](HEX.png)
 
-`HEX.png` をstringsコマンド（Linux向け。Windows向けには別途準備されたい）に通す。PNGのファイル終了を意味する `IEND` の後より、URLに展開できそうな文字列 `thbb://pdqweqp.iuywfcjm.xx/20250401/qfmrtke/rnho/eqfzrq/y5shn.thux` を得る。
+`HEX.png` をstringsコマンド（Linux向け。Windowsでは適当なテキストエディタで開くことで代用可能）に通す。PNGのファイル終了を意味する `IEND` の後より、URLに展開できそうな文字列 `thbb://pdqweqp.iuywfcjm.xx/20250401/qfmrtke/rnho/eqfzrq/y5shn.thux` を得る。
 
 ```
 $ strings HEX.png
