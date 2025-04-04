@@ -72,26 +72,25 @@ TIBERIVS CLAVDIVS CAESAR says
 ## Question 3
 
 ### 問題
-```
-b=2(6), f=10(6), r=30(6), y=41(6)であるとき
 
-
-文字列αを 42(6) 14(6) 1(6) 22(6) 5(6) 14(6) 13(6) 3(6) 34(6) 13(6) 13(6) 20(6) 31(6)
-
-文字列βを 4(6) 1(6) 4(6) 20(6) 24(6) 20(6) 4(6)
-
-文字列γを 42(6) 21(6) 15(6) 15(6) 42(6) 10(6) 2(6)
-
-文字列δを 2(6) 41(6) 1(6) 42(6) 10(6) 33(6) 1(6) 31(6)
-
-とする。
-
-次のページのurlは
-
-http://bveiweb.aikotoba.jp/20250401/文字列α/文字列β/文字列γ/文字列δ.html
-
-である。
-```
+> b=2(6), f=10(6), r=30(6), y=41(6)であるとき
+> 
+> 
+> 文字列αを 42(6) 14(6) 1(6) 22(6) 5(6) 14(6) 13(6) 3(6) 34(6) 13(6) 13(6) 20(6) 31(6)
+> 
+> 文字列βを 4(6) 1(6) 4(6) 20(6) 24(6) 20(6) 4(6)
+> 
+> 文字列γを 42(6) 21(6) 15(6) 15(6) 42(6) 10(6) 2(6)
+> 
+> 文字列δを 2(6) 41(6) 1(6) 42(6) 10(6) 33(6) 1(6) 31(6)
+> 
+> とする。
+> 
+> 次のページのurlは
+> 
+> http://bveiweb.aikotoba.jp/20250401/文字列α/文字列β/文字列γ/文字列δ.html
+> 
+> である。
 
 ### 解法
 
@@ -117,20 +116,20 @@ http://bveiweb.aikotoba.jp/20250401/文字列α/文字列β/文字列γ/文字�
 
 ### 問題
 
-```
-TIBERIVS CLAVDIVS CAESAR says
 
-" \xG80F\xGI87\xG80F\xGIII \xG80F\xGI87\xG80F\xGIII \xG80F\xGI87\xG80F\xGIII \xG80F\xGI86 \xG80F\xGI89\xG80G\xGF01 \xG80F\xGI86\xG80F\xGIII \xG80F\xGI86\xG80G\xGF01 \xG80F\xGI8E
+> TIBERIVS CLAVDIVS CAESAR says
+> 
+> " \xG80F\xGI87\xG80F\xGIII \xG80F\xGI87\xG80F\xGIII \xG80F\xGI87\xG80F\xGIII \xG80F\xGI86 \xG80F\xGI89\xG80G\xGF01 \xG80F\xGI86\xG80F\xGIII \xG80F\xGI86\xG80G\xGF01 \xG80F\xGI8E
+> 
+> \xG80F\xGI87\xG80F\xGIII \xG80F\xGI86\xG80F\xGIII \xG80F\xGI86 \xG80F\xGI8D\xG80G\xGF01 \xG80F\xGI8E
+> 
+> \xG80F\xGI89\xG80G\xGF02 \xG80F\xGI88\xG80F\xGIII \xG80F\xGI86\xG80G\xGF02 \xG80F\xGI88\xG80G\xGF01 \xG80F\xGI86 \xG80F\xGI8D\xG80G\xGF01 \xG80F\xGI8E
+> 
+> \xG80F\xGI86\xG80G\xGF02 \xG80F\xGI87 \xG80F\xGI86 \xG80F\xGI88\xG80G\xGF00 \xG80F\xGI86\xG80F\xGIII "
+> 
+> 
+> ヒント：数字・記号は復号しない。
 
-\xG80F\xGI87\xG80F\xGIII \xG80F\xGI86\xG80F\xGIII \xG80F\xGI86 \xG80F\xGI8D\xG80G\xGF01 \xG80F\xGI8E
-
-\xG80F\xGI89\xG80G\xGF02 \xG80F\xGI88\xG80F\xGIII \xG80F\xGI86\xG80G\xGF02 \xG80F\xGI88\xG80G\xGF01 \xG80F\xGI86 \xG80F\xGI8D\xG80G\xGF01 \xG80F\xGI8E
-
-\xG80F\xGI86\xG80G\xGF02 \xG80F\xGI87 \xG80F\xGI86 \xG80F\xGI88\xG80G\xGF00 \xG80F\xGI86\xG80F\xGIII "
-
-
-ヒント：数字・記号は復号しない。
-```
 
 ### 解法
 
@@ -207,7 +206,7 @@ httpとおぼしきところがthbbに写されていること、jpとおぼし�
 
 多表式の換字式暗号としてはヴィジュネル暗号が最もポピュラーであることから、これを試行する。 https://www.dcode.fr/vigenere-cipher のVigenere ciphertext欄に上記文字列を置く。
 
-ここで問題の画像を見ると、 `HEX.png` に描かれている鍵の画像と `moi` の文字が同じ色で描かれていることがわかる。ここで、 `MOI` 
+ここで問題の画像を見ると、 `HEX.png` に描かれている鍵の画像と `moi` の文字が同じ色で描かれていることがわかる。Knowing the Key/Passwordを選択して `MOI` を入力し、DECRYPTを押す。Results欄に中間解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
 
 ### 別解
 
@@ -223,10 +222,66 @@ httpとおぼしきところがthbbに写されていること、jpとおぼし�
 
 背景画像の上に、次の文字列が表示される。
 
-```
-wktktkwktkwkwkwkwktktktkwktkwkwkwktktktkwktkwkwkwktktktkwkwkwkwkwkwktktktkwktkwkwkwktkwktktktktkwkwktkwktktktktkwktktkwkwkwktkwkwktktktkwktktkwkwktktkwkwktkwktkwktktkwktkwkwktkwktktktkwktktktkwktktkwkwktkwktkwktktkwkwkwktkwkwkwktkwktktktkwkwktktkwkwkwkwktkwktktkwktkwkwktkwktktkwktkwktktkwktktkwktktktktkwktktktkwktkwkwkwktktkwktktktktkwktktkwkwkwktkwkwktktkwkwkwkwktkwkwktkwktktktkwkwktktkwktkwktkwkwktktktkwkwkwkwkwkwktkwktktktktkwkwktktkwkwktkwkwkwktktkwkwkwkwkwkwktktkwkwktkwkwkwktktkwktkwktkwkwktktkwkwkwkwkwkwktktkwktkwkwkwkwktktkwkwkwkwkwkwktktkwkwkwktkwkwktkwktktktktkwktktkwkwktkwktkwktktktkwkwktkwkwktktkwkwktkwktkwktktkwkwktktkwkwktktkwkwktktkwkwktktkwkwkwktktkwktktktkwkwktktkwkwktkwktktktktkwktktkwkwktkwkwkwktktkwkwktktkwkwktktktkwktktkwkwktktkwkwkwkwktkwkwktkwktktktktkwktktktkwktktktkwktktkwkwktkwktkwktktktkwkwktkwkwktktktkwkwktkwkwktktkwkwktktkwkwktktkwkwkwktktkwkwktkwktktktktkwktktktkwkwktktkwktktktkwktktktkwkwktkwktktktktkwktktkwkwkwktktkwktktkwkwkwkwktkwkwktkwktktktktkwktktktktkwktkwkwkwktktkwkwkwktkwkwktkwktktktktkwkwktktkwkwkwkwkwkwktktkwkwktkwkwktktkwkwkwkwktkwkwktkwktktktkwkwktktkwktkwkwkwkwktktktkwktkwkwkwktktkwktktkwktkwktktkwktktkwkwkwkwkwkwktktkwktkwkwkwkwktkwktkwk
-```
+> wktktkwktkwkwkwkwktktktkwktkwkwkwktktktkwktkwkwkwktktktkwkwkwkwkwkwktktktkwktkwkwkwktkwktktktktkwkwktkwktktktktkwktktkwkwkwktkwkwktktktkwktktkwkwktktkwkwktkwktkwktktkwktkwkwktkwktktktkwktktktkwktktkwkwktkwktkwktktkwkwkwktkwkwkwktkwktktktkwkwktktkwkwkwkwktkwktktkwktkwkwktkwktktkwktkwktktkwktktkwktktktktkwktktktkwktkwkwkwktktkwktktktktkwktktkwkwkwktkwkwktktkwkwkwkwktkwkwktkwktktktkwkwktktkwktkwktkwkwktktktkwkwkwkwkwkwktkwktktktktkwkwktktkwkwktkwkwkwktktkwkwkwkwkwkwktktkwkwktkwkwkwktktkwktkwktkwkwktktkwkwkwkwkwkwktktkwktkwkwkwkwktktkwkwkwkwkwkwktktkwkwkwktkwkwktkwktktktktkwktktkwkwktkwktkwktktktkwkwktkwkwktktkwkwktkwktkwktktkwkwktktkwkwktktkwkwktktkwkwktktkwkwkwktktkwktktktkwkwktktkwkwktkwktktktktkwktktkwkwktkwkwkwktktkwkwktktkwkwktktktkwktktkwkwktktkwkwkwkwktkwkwktkwktktktktkwktktktkwktktktkwktktkwkwktkwktkwktktktkwkwktkwkwktktktkwkwktkwkwktktkwkwktktkwkwktktkwkwkwktktkwkwktkwktktktktkwktktktkwkwktktkwktktktkwktktktkwkwktkwktktktktkwktktkwkwkwktktkwktktkwkwkwkwktkwkwktkwktktktktkwktktktktkwktkwkwkwktktkwkwkwktkwkwktkwktktktktkwkwktktkwkwkwkwkwkwktktkwkwktkwkwktktkwkwkwkwktkwkwktkwktktktkwkwktktkwktkwkwkwkwktktktkwktkwkwkwktktkwktktkwktkwktktkwktktkwkwkwkwkwkwktktkwktkwkwkwkwktkwktkwk
 
 ### 解答
 
 三度に渡ってステガノグラフィの存在を暗示する画像が表示されるので、ソースコードからダウンロードする。
+`kdwvxqh.png` を得る。
+
+これを初音に通すと、 `wkwktktk.zip` を得る。
+
+同封されている `README!!!.txt` の内容は次の通り。
+
+```
+2025/03/27作成 ・　2025/04/01公開
+
+
+■はじめに・・・
+
+ダウンロードありがとうございます。
+そして、よくぞここまでたどり着きました！
+
+
+このアプリは、例のwktkを解読するコンソールアプリです。
+
+
+
+■使用方法
+
+☆使用の前に、Microsoft Windows デスクトップ ランタイム8.0  は入れておいてください。
+・展開して実行します（ウイルススキャンで引っかかるかもしれませんが、実行する場合は設定いじったりして何とか下さい！）
+・起動して、入力。そして実行ボタンを押すだけです。（見ればすぐわかると思います！）
+
+
+
+■削除方法　
+
+このフォルダごと消してください。
+
+
+
+■注意事項及び免責
+
+・改造・解析・再配布はご自由にどうぞ。（しても意味ないけど。）
+
+☆本ソフトを使用しての直接的、二次的被害についての責任は一切負いません。
+
+
+
+■最後に
+
+ここまで本当にお疲れさまでした。
+今年の暗号が簡単だったとか、難しかったとか・・・人や団体によって感じ方は様々でしょう。
+しかし、ここまで来たならもう全て解けたも同然ですから。
+あと僅かです。頑張ってください。
+```
+
+`wkwktktk.exe` を起動し、画面上に表示されていた文字列を入力する。次を得る。
+
+```
+011010000111010001110100011100000011101000101111001011110110001001110110011001010110100101110111011001010110001000101110011000010110100101101011011011110111010001101111011000100110000100101110011010100111000000101111001100100011000000110010001101010011000000110100001100000011000100101111011001010111001001100101011001100110011001100011011100110010111101100100011001100111011001100001001011110111011101100101011100100111001001100110011000110010111101110011011101110010111101100011011000010010111101111010001100010010111100110000001100100110000100101110011010000111010001101101011011000000110100001010
+```
+
+https://www.dcode.fr/ascii-code の ASCII ciphertext (decimal, hexadecimal, etc.) にこれを張り付けてDECRYPT/CONVERT ASCIIを押す。
+ResultsのBIN /8欄に解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/sw/ca/z1/02a.html を得る。
