@@ -56,7 +56,7 @@ TIBERIVS CLAVDIVS CAESAR says
 これをダウンロードし、 `p2q.png` を得る。この画像には、最下部に模様が視認でき、ステガノグラフィであることを疑わせる。
 
 ヒントを読むと、「暗号を解く方法、道具の名前は、すでに示してあります。」とある。
-ここで、他と異なり、赤線引きになっている文字はノガテス、斜体になっている文字はハツネである。
+他の文字と異なる装飾がされている文字に注目する。赤線引きになっている文字は `ノガテス`、斜体になっている文字は`ハツネ`である。
 赤線引きは逆から読むとステガノであり、国産のステガノグラフィソフトウェアとして[初音](https://www.vector.co.jp/soft/win95/util/se309150.html)が存在する。これをダウンロードする。
 
 解除モードで偽装済みPNGファイルに `p2q.png` を、出力ディレクトリに任意のディレクトリを指定し、パスワード欄は空欄のまま実行する。出力ディレクトリに `ans2.txt` を得る。
@@ -197,7 +197,7 @@ SKDMEW/
 DJELA
 ```
 
-ここにあぶり出しの記述より `.HTML` を付加し、中間解答 https://bveiweb.aikotoba.jp/20250401/FFFERAC/FAEW/SKDMEW/DJELA.HTML を得る。
+ここにあぶり出しの記述より `.HTML` を付加し、解答 https://bveiweb.aikotoba.jp/20250401/FFFERAC/FAEW/SKDMEW/DJELA.HTML を得る。
 
 
 ## Question 4B
@@ -236,13 +236,13 @@ httpとおぼしきところがthbbに写されていること、jpとおぼし�
 
 多表式の換字式暗号としてはヴィジュネル暗号が最もポピュラーであることから、これを試行する。 https://www.dcode.fr/vigenere-cipher のVigenere ciphertext欄に上記文字列を置く。
 
-ここで問題の画像を見ると、 `HEX.png` に描かれている鍵の画像と `moi` の文字が同じ色 (#FF0000) で描かれていることがわかる。Knowing the Key/Passwordを選択して `MOI` を入力し、DECRYPTを押す。Results欄に中間解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
+ここで問題の画像を見ると、 `HEX.png` に描かれている鍵の画像と `moi` の文字が同じ色 (#FF0000) で描かれていることがわかる。Knowing the Key/Passwordを選択して `MOI` を入力し、DECRYPTを押す。Results欄に解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
 
 ### 別解
 
 平文が `http://bveiweb.aikotoba.jp/20250401/*******/****/******/*****.html` であると想定され、平文の一部が既知である。dCodeにおいてKnowing a plaintext wordを選択し、 `bveiweb.aikotoba` を入力する。これによってResults欄に鍵候補 `MOIMOI` と、これによって復号した場合に得られる文字列 `HTTPBVEIWEBAIKOTOBAJPEREFFCSDFVAWERRFCQGTFHTML` を得る。
 
-改めて、 Knowing the Key/Passwordを選択し `MOIMOI` を入力する。中間解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
+改めて、 Knowing the Key/Passwordを選択し `MOIMOI` を入力する。解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
 
 > [!NOTE]
 > 実際の鍵は `MOI` であるが、ヴィジュネル暗号は平文に対して鍵を繰り返し適用するため、同じ文字列の繰り返しである鍵 `MOIMOI` でも問題なく復号できる。
