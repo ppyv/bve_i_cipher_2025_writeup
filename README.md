@@ -10,7 +10,7 @@
 > 
 > *DGG ".kwpo""
 
-### 解法
+### 解答
 あぶり出しで
 ```
 TIBERIVS CLAVDIVS CAESAR says
@@ -46,7 +46,7 @@ TIBERIVS CLAVDIVS CAESAR says
 ![Question 2の問題画像](p2q.png)
 </details>
 
-### 解法
+### 解答
 これをダウンロードし、 `p2q.png` を得る。この画像には、最下部に模様が視認でき、ステガノグラフィであることを疑わせる。
 
 ヒントを読むと、「暗号を解く方法、道具の名前は、すでに示してあります。」とある。
@@ -98,7 +98,7 @@ TIBERIVS CLAVDIVS CAESAR says
 > 
 > である。
 
-### 解法
+### 解答
 
 あぶり出しで
 ```
@@ -137,7 +137,7 @@ TIBERIVS CLAVDIVS CAESAR says
 > ヒント：数字・記号は復号しない。
 
 
-### 解法
+### 解答
 
 あぶり出しで次を得る。
 ```
