@@ -42,6 +42,7 @@ TIBERIVS CLAVDIVS CAESAR says
 
 <details>
 <summary>Question 2の問題画像</summary>
+
 ![Question 2の問題画像](p2q.png)
 </details>
 
@@ -201,6 +202,7 @@ DJELA
 
 <details>
 <summary>Question 4Bの問題スクリーンショット</summary>
+
 ![Question 2の問題](4b.png)
 </details>
 
@@ -249,6 +251,7 @@ httpとおぼしきところがthbbに写されていること、jpとおぼし�
 
 <details>
 <summary>Question 4Cの問題スクリーンショット</summary>
+
 ![Question 4Cの問題スクリーンショット](4c.png)
 </details>
 
