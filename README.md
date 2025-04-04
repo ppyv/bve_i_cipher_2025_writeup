@@ -40,6 +40,11 @@ TIBERIVS CLAVDIVS CAESAR says
 ### 問題
 画像である。
 
+<details>
+<summary>Question 2の問題画像</summary>
+![Question 2の問題画像](p2q.png)
+</details>
+
 ### 解法
 これをダウンロードし、 `p2q.png` を得る。この画像には、最下部に模様が視認でき、ステガノグラフィであることを疑わせる。
 
@@ -100,7 +105,7 @@ TIBERIVS CLAVDIVS CAESAR says
 ```
 を得る。
 
-1行目の「b=2(6), f=10(6), r=30(6), y=41(6)であるとき」より、右辺についてこのような記数法をするのは底を明示する場合であるので、6を底とする位取り記数法（6進法）であると仮定する。このとき、それぞれ2, 6, 18, 25となる。左辺に注目すると、bはアルファベットの2番目の文字、fは6番目の文字、rは18番目の文字、yは25番目の文字であるから一致する。
+1行目の「b=2(6), f=10(6), r=30(6), y=41(6)であるとき」より、右辺についてこのような記数法をするのは底を明示する場合であると考えられるので、右辺の数値は6を底とする位取り記数法（6進法）で記述されていると仮定する。このとき、それぞれ10進法で置き換えると2, 6, 18, 25となる。左辺に注目すると、bはアルファベットの2番目の文字、fは6番目の文字、rは18番目の文字、yは25番目の文字であるから一致する。
 
 これに基づいてα、β、γ、δの4つの文字列を書き下すと、次のようになる。
 ```
@@ -167,7 +172,7 @@ TIBERIVS CLAVDIVS CAESAR says
 𓎆𓐂 𓎇 𓎆 𓎈𓐀 𓎆𓏿
 ```
 
-これらはヒエログリフの数字であり、𓏺が1つで1、𓎆が1つで10を表す。この関係性から、次に写される。
+これらはヒエログリフの数字であり、`𓏺` が1つで1、 `𓎆` が1つで10を表す。この関係性から、アラビア数字として次のように写される。
 ```
 26 26 26 10 48 16 18 60
 26 16 10 58 60
@@ -175,7 +180,7 @@ TIBERIVS CLAVDIVS CAESAR says
 19 20 10 37 16
 ```
 
-このとき、 `title` タグの文字列をシーザー暗号として右に3字シフトすると、`【X】 PocketBel->Num` を得る。このことから、先の文字列はポケベル入力における換字表に通すことが示唆される。
+このとき、 `title` タグの文字列をシーザー暗号と仮定して右に3字シフトすると、`【X】 PocketBel->Num` を得る。このことから、先の文字列はポケベル入力における換字表に通すことが示唆される。
 
 Web検索で得られる換字表や変換ツールにより、先の数値は次に写される。
 ```
@@ -185,7 +190,7 @@ SKDMEW/
 DJELA
 ```
 
-ここにあぶり出しより `.HTML` を付加し、中間解答 https://bveiweb.aikotoba.jp/20250401/FFFERAC/FAEW/SKDMEW/DJELA.HTML を得る。
+ここにあぶり出しの記述より `.HTML` を付加し、中間解答 https://bveiweb.aikotoba.jp/20250401/FFFERAC/FAEW/SKDMEW/DJELA.HTML を得る。
 
 
 ## Question 4B
@@ -194,27 +199,45 @@ DJELA
 
 画像である。フィンランド語が表示される。
 
+<details>
+<summary>Question 4Bの問題スクリーンショット</summary>
+![Question 2の問題](4b.png)
+</details>
+
+
 ### 解答
 
 この画像ファイルをダウンロードする。直接はダウンロードできないようにされているため、ソースコードを開き、CSSで参照されている画像ファイルに直接アクセスし、ダウンロードする。 `ba.png` を得る。
 
+![ba.png](ba.png)
+
 ここでも画像にランダムなノイズが乗っていることから、初音に通す。これにより、 `HEX.png` を得る。
 
+![HEX.png](hex.png)
+
 `HEX.png` をstringsコマンド（Linux向け。Windows向けには別途準備されたい）に通す。PNGのファイル終了を意味する `IEND` の後より、URLに展開できそうな文字列 `thbb://pdqweqp.iuywfcjm.xx/20250401/qfmrtke/rnho/eqfzrq/y5shn.thux` を得る。
+
+```
+$ strings HEX.png
+(omit)
+IEND
+Bthbb://pdqweqp.iuywfcjm.xx/20250401/qfmrtke/rnho/eqfzrq/y5shn.thux
+```
 
 httpとおぼしきところがthbbに写されていること、jpとおぼしきところがxxに写されていることから、シーザー暗号ではないことが分かる。また、htmlとおぼしきところがthuxに写されており、ある周期でhがtに、tがhに写されることが分かる。すなわち多表式の換字式暗号であることを想定する。
 
 多表式の換字式暗号としてはヴィジュネル暗号が最もポピュラーであることから、これを試行する。 https://www.dcode.fr/vigenere-cipher のVigenere ciphertext欄に上記文字列を置く。
 
-ここで問題の画像を見ると、 `HEX.png` に描かれている鍵の画像と `moi` の文字が同じ色で描かれていることがわかる。Knowing the Key/Passwordを選択して `MOI` を入力し、DECRYPTを押す。Results欄に中間解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
+ここで問題の画像を見ると、 `HEX.png` に描かれている鍵の画像と `moi` の文字が同じ色 (#FF0000) で描かれていることがわかる。Knowing the Key/Passwordを選択して `MOI` を入力し、DECRYPTを押す。Results欄に中間解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
 
 ### 別解
 
-平文が `http://bveiweb.aikotoba.jp/20250401/*******/****/******/*****.html` であると想定されることから、既知平文攻撃を行う。dCodeにおいてKnowing a plaintext wordを選択し、 `bveiweb.aikotoba` を入力する。これによって鍵 `MOIMOI` を得る。
+平文が `http://bveiweb.aikotoba.jp/20250401/*******/****/******/*****.html` であると想定され、平文の一部が既知である。dCodeにおいてKnowing a plaintext wordを選択し、 `bveiweb.aikotoba` を入力する。これによって鍵 `MOIMOI` を得る。
 
 改めて、 Knowing the Key/Passwordを選択し `MOIMOI` を入力すると、中間解答 http://bveiweb.aikotoba.jp/20250401/ereffcs/dfva/werrfc/q5gtf.html を得る。
 
-実際の鍵は `MOI` であるが、ヴィジュネル暗号は平文に対して鍵を繰り返し適用するため、同じ文字列の繰り返しである鍵 `MOIMOI` でも問題なく復号できる。
+> [!NOTE]
+> 実際の鍵は `MOI` であるが、ヴィジュネル暗号は平文に対して鍵を繰り返し適用するため、同じ文字列の繰り返しである鍵 `MOIMOI` でも問題なく復号できる。
 
 ## Question 4C
 
@@ -224,10 +247,18 @@ httpとおぼしきところがthbbに写されていること、jpとおぼし�
 
 > wktktkwktkwkwkwkwktktktkwktkwkwkwktktktkwktkwkwkwktktktkwkwkwkwkwkwktktktkwktkwkwkwktkwktktktktkwkwktkwktktktktkwktktkwkwkwktkwkwktktktkwktktkwkwktktkwkwktkwktkwktktkwktkwkwktkwktktktkwktktktkwktktkwkwktkwktkwktktkwkwkwktkwkwkwktkwktktktkwkwktktkwkwkwkwktkwktktkwktkwkwktkwktktkwktkwktktkwktktkwktktktktkwktktktkwktkwkwkwktktkwktktktktkwktktkwkwkwktkwkwktktkwkwkwkwktkwkwktkwktktktkwkwktktkwktkwktkwkwktktktkwkwkwkwkwkwktkwktktktktkwkwktktkwkwktkwkwkwktktkwkwkwkwkwkwktktkwkwktkwkwkwktktkwktkwktkwkwktktkwkwkwkwkwkwktktkwktkwkwkwkwktktkwkwkwkwkwkwktktkwkwkwktkwkwktkwktktktktkwktktkwkwktkwktkwktktktkwkwktkwkwktktkwkwktkwktkwktktkwkwktktkwkwktktkwkwktktkwkwktktkwkwkwktktkwktktktkwkwktktkwkwktkwktktktktkwktktkwkwktkwkwkwktktkwkwktktkwkwktktktkwktktkwkwktktkwkwkwkwktkwkwktkwktktktktkwktktktkwktktktkwktktkwkwktkwktkwktktktkwkwktkwkwktktktkwkwktkwkwktktkwkwktktkwkwktktkwkwkwktktkwkwktkwktktktktkwktktktkwkwktktkwktktktkwktktktkwkwktkwktktktktkwktktkwkwkwktktkwktktkwkwkwkwktkwkwktkwktktktktkwktktktktkwktkwkwkwktktkwkwkwktkwkwktkwktktktktkwkwktktkwkwkwkwkwkwktktkwkwktkwkwktktkwkwkwkwktkwkwktkwktktktkwkwktktkwktkwkwkwkwktktktkwktkwkwkwktktkwktktkwktkwktktkwktktkwkwkwkwkwkwktktkwktkwkwkwkwktkwktkwk
 
+<details>
+<summary>Question 4Cの問題スクリーンショット</summary>
+![Question 4Cの問題スクリーンショット](4c.png)
+</details>
+
+
 ### 解答
 
 三度に渡ってステガノグラフィの存在を暗示する画像が表示されるので、ソースコードからダウンロードする。
 `kdwvxqh.png` を得る。
+
+![kdwvxqh.png](kdwvxqh.png)
 
 これを初音に通すと、 `wkwktktk.zip` を得る。
 
